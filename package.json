@@ -1,0 +1,42 @@
+{
+  "name": "chaser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devServer": "pm2 start Deploy/ecosystem.config.js --env development --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "deep-cleaner": "^1.1.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "jsonschema": "^1.2.4",
+    "jsonwebtoken": "^8.4.0",
+    "md5": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.1.9",
+    "node-fetch": "^2.6.0",
+    "ofx": "^0.4.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "puppeteer": "^1.12.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "pm2": "^3.5.0",
+    "pm2-mysql": "^1.0.0"
+  }
+}
